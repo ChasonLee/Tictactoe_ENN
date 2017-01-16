@@ -52,7 +52,7 @@ class Neuron:
 
     def setTheta(self, theta):
         if self.get_input_size() != len(theta):
-            print "The size of theta cannot change!"
+            print "The size of thetas cannot change!"
             return False
         self.theta = theta
         return True
